@@ -1,0 +1,20 @@
+{
+  "name": "kenanduman/kolranking",
+  "description": "Kolranking Scrapper",
+  "autoload": {
+    "psr-4": {
+      "kolranking\\": "kolranking"
+    }
+  },
+  "authors": [
+    {
+      "name": "Kenan Duman",
+      "email": "kenanduman1988@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3",
+    "vlucas/phpdotenv": "^2.5",
+    "gladyshev/anticaptcha-client": "^1.0"
+  }
+}
